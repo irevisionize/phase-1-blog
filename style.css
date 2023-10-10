@@ -1,0 +1,82 @@
+.header-flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color:black;
+    padding:10px;
+    margin:0;
+}
+
+.header-flex img:is([src$="mylogo.jpeg"]) {
+    /* display:flex; */
+    max-width: 5%;
+    max-height: 5%;
+    border-radius: 50px;
+}
+
+.header-flex img:is([src$="Threedimensionstar.jpeg"]) {
+    /* display:flex; */
+    max-width: 4%;
+    max-height: 4%;
+}
+
+.header-flex li {
+    display: flex;
+    height:0%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row; 
+    padding: 0;
+    margin: 0;
+}
+
+.header-flex p {
+    color:white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.darkwaterfall-container {
+    display:flex;
+    justify-content: flex-end;
+    max-width:100%;
+    max-height:100%;
+    background-color: black;
+    padding:0;
+    margin:0;
+
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .animated-container {
+    position: relative;
+  }
+  
+  .animated-video {
+    width: 100%;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5); /* optional, for better text visibility */
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .static-image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+
+  
